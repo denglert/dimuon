@@ -21,4 +21,4 @@ hist_dimuon_mass_massMax = 500
 
 h = TH1D("histo_dimuon_mass","di-muon mass spectrum;m [GeV^{2}/c];Entries", hist_dimuon_mass_nBins, hist_dimuon_mass_massMin, hist_dimuon_mass_massMax )
 h.Draw()
-raw_input("Press return to exit.")
+#raw_input("Press return to exit.")
